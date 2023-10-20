@@ -60,7 +60,7 @@ global.xyro = "yqiBQF86F4"
 /*Number*/
 global.nomorbot = "212697118528"
 global.nomorown = "212697118528"
-global.namebot = " ᴛᴀyʟᴏʀ-ʙᴏᴛ あ⁩ "
+global.namebot = " 𝙈𝙞𝙙𝘽𝙤𝙩 あ⁩ "
 global.nameown = "「 𝙈𝙞𝙙𝘽𝙤𝙩 」"
 
 /* Random */
@@ -68,9 +68,9 @@ global.pmenus = pickRandom(["乂", "◈", "➭", "ଓ", "⟆•", "⳻", "•", 
 global.htjava = pickRandom(["乂", "⛶", "❏", "⫹⫺", "☰", "⎔", "✦", "⭔", "⬟", "⛊", "⚝"])
 
 /*Watermark*/
-global.wm = "                「 ᴛᴀyʟᴏʀ-ʙᴏᴛ あ⁩ 」"
+global.wm = "「 𝙈𝙞𝙙𝘽𝙤𝙩 あ⁩ 」"
 global.wm2 = "꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘օառɛʀ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷"
-global.wm3 = htjava + " ᴛᴀyʟᴏʀ-ʙᴏᴛ"
+global.wm3 = htjava + " 𝙈𝙞𝙙𝘽𝙤𝙩 "
 global.botdate = `${htjava} Date :  ${moment.tz("Africa/Casablanca").format("DD/MM/YY")}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz("Africa/Casablanca").format("HH:mm:ss")}`
 global.titlebot = `${htjava} Time Sever : ${moment.tz("Africa/Casablanca").format("HH:mm:ss")}\n⫹⫺ Date Server :  ${moment.tz("Africa/Casablanca").format("DD/MM/YY")}`
@@ -81,11 +81,11 @@ global.fla = pickRandom(ImgLogoFlam())
 global.flaaa = ImgLogoDynamic()
 
 /*Link*/
-global.sig = "https://www.instagram.com/wudysoft"
-global.sgh = "https://www.github.com/AyGemuy"
-global.sgc = "https://chat.whatsapp.com/LqJoQr4IdBLAXsxd1PkNph"
-global.sdc = "https://www.discord.com/wudysoft"
-global.snh = "https://www.tiktok.com/@upload_file"
+global.sig = "https://www.instagram.com/"
+global.sgh = "https://www.github.com/"
+global.sgc = "https://chat.whatsapp.com/"
+global.sdc = "https://www.discord.com/"
+global.snh = "https://www.tiktok.com/"
 global.sfb = "https://www.facebook.com/"
 global.syt = "https://www.youtube.com/"
 
