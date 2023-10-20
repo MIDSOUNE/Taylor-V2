@@ -11,10 +11,10 @@ import moment from "moment-timezone"
 
 /*Oᴡɴᴇʀ number*/
 global.owner = [
-    ["6282195322106", "️𝑾𝒖𝒅𝒚𝒔𝒐𝒇𝒕 - 𝑶𝒘𝒏𝒆𝒓", true]
+    ["212697118528", "️𝙈𝙞𝙙𝘽𝙤𝙩 - 𝑶𝒘𝒏𝒆𝒓", true]
 ]
-global.mods = ["6282195322106"]
-global.prems = ["6282195322106"]
+global.mods = ["212697118528"]
+global.prems = ["212697118528"]
 
 /*Website*/
 global.APIs = {
@@ -58,10 +58,10 @@ global.ameapikey = "1f98ec7e4842d057d7551722f83e9ae5c59896856aa3f96d406ff8fc9185
 global.xyro = "yqiBQF86F4"
 
 /*Number*/
-global.nomorbot = "6285171216276"
-global.nomorown = "6282195322106"
+global.nomorbot = "212697118528"
+global.nomorown = "212697118528"
 global.namebot = " ᴛᴀyʟᴏʀ-ʙᴏᴛ あ⁩ "
-global.nameown = "「 𝑾𝒖𝒅𝒚𝒔𝒐𝒇𝒕 」"
+global.nameown = "「 𝙈𝙞𝙙𝘽𝙤𝙩 」"
 
 /* Random */
 global.pmenus = pickRandom(["乂", "◈", "➭", "ଓ", "⟆•", "⳻", "•", "↬", "◈", "⭑", "ᯬ", "◉", "᭻", "»", "〆", "々", "⛥", "✗", "⚜", "⚚", "♪"])
@@ -148,7 +148,7 @@ global.cmenua = "\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙
 global.emojis = pickRandom(["👑", "🎗", "️🗿", "🕹", "️💡", "🪄", "🎈", "🎊", "🔖", "📍", "❤", "‍🔥", "💤", "💭", "🕚", "💬", "🚩", "🎐", "🍃", "🌿", "🥀", "✨", "⚡", "☂️"])
 global.packname = "𝑴𝒂𝒅𝒆 𝒃𝒚"
 global.stickpack = packname
-global.author = "𝑻𝒂𝒚𝒍𝒐𝒓 乂 𝑾𝒖𝒅𝒚𝒔𝒐𝒇𝒕"
+global.author = "𝙈𝙞𝙙𝘽𝙤𝙩 乂 𝙈𝙞𝙙𝘽𝙤𝒕"
 global.stickauth = author + "\nwa.me/" + nomorbot
 global.multiplier = 69
 
@@ -184,7 +184,7 @@ global.adReplyS = {
             title: "📍 " + Sapa() + Pagi(),
             body: author,
             mediaUrl: sgc,
-            description: "𝑾𝒖𝒅𝒚𝒔𝒐𝒇𝒕",
+            description: "𝙈𝙞𝙙𝘽𝙤𝙩",
             previewType: "PHOTO",
             thumbnail: await fs.readFileSync("./thumbnail.jpg"),
             sourceUrl: "https://github.com/AyGemuy",
