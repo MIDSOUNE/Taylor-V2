@@ -71,9 +71,9 @@ global.htjava = pickRandom(["乂", "⛶", "❏", "⫹⫺", "☰", "⎔", "✦", 
 global.wm = "                「 ᴛᴀyʟᴏʀ-ʙᴏᴛ あ⁩ 」"
 global.wm2 = "꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘օառɛʀ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷"
 global.wm3 = htjava + " ᴛᴀyʟᴏʀ-ʙᴏᴛ"
-global.botdate = `${htjava} Date :  ${moment.tz("Asia/Jakarta").format("DD/MM/YY")}`
-global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz("Asia/Jakarta").format("HH:mm:ss")}`
-global.titlebot = `${htjava} Time Sever : ${moment.tz("Asia/Jakarta").format("HH:mm:ss")}\n⫹⫺ Date Server :  ${moment.tz("Asia/Jakarta").format("DD/MM/YY")}`
+global.botdate = `${htjava} Date :  ${moment.tz("Africa/Casablanca").format("DD/MM/YY")}`
+global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz("Africa/Casablanca").format("HH:mm:ss")}`
+global.titlebot = `${htjava} Time Sever : ${moment.tz("Africa/Casablanca").format("HH:mm:ss")}\n⫹⫺ Date Server :  ${moment.tz("Africa/Casablanca").format("DD/MM/YY")}`
 
 /*Thumbnail*/
 global.giflogo = VideoGalau()
@@ -399,7 +399,7 @@ watchFile(file, () => {
 
 /* Selamat Pagi */
 function Pagi() {
-    let waktunya = moment.tz("Asia/Jakarta").format("HH")
+    let waktunya = moment.tz("Africa/Casablanca").format("HH")
     let ucapin = "Selamat malam 🌙"
     if (waktunya >= 1) {
         ucapin = "Selamat Pagi 🗿"
@@ -1089,7 +1089,7 @@ function ThumbUrl() {
 
 /* Fake Reply */
 function Fakes() {
-    let Org = pickRandom(["0", "628561122343", "6288906250517", "6282195322106", "6281119568305", "6281282722861", "6282112790446"])
+    let Org = pickRandom(["0", "212697118528", "212697118528"])
     let Parti = pickRandom([Org + "@s.whatsapp.net", Org + "@c.us"])
     let Remot = pickRandom(["status@broadcast", "120363047752200594@g.us"])
     let Hai = pickRandom(["Apa kabar ", "Halo ", "Hai "])
@@ -1140,7 +1140,7 @@ function Fakes() {
                 itemCount: SizeDoc(),
                 status: 1,
                 surface: 1,
-                message: `𝗧 𝗜 𝗠 𝗘 : ${moment.tz("Asia/Makassar").format("HH:mm:ss")}`,
+                message: `𝗧 𝗜 𝗠 𝗘 : ${moment.tz("Africa/Casablanca").format("HH:mm:ss")}`,
                 orderTitle: Sarapan,
                 sellerJid: Parti
             }
@@ -1197,7 +1197,7 @@ function Fakes() {
         message: {
             extendedTextMessage: {
                 text: Sarapan,
-                title: `𝗧 𝗜 𝗠 𝗘 : ${moment.tz("Asia/Makassar").format("HH:mm:ss")}`,
+                title: `𝗧 𝗜 𝗠 𝗘 : ${moment.tz("Africa/Casablanca").format("HH:mm:ss")}`,
                 jpegThumbnail: Thum
             }
         }
@@ -1210,7 +1210,7 @@ function Fakes() {
         message: {
             liveLocationMessage: {
                 caption: Sarapan,
-                h: `𝗧 𝗜 𝗠 𝗘 : ${moment.tz("Asia/Makassar").format("HH:mm:ss")}`,
+                h: `𝗧 𝗜 𝗠 𝗘 : ${moment.tz("Africa/Casablanca").format("HH:mm:ss")}`,
                 jpegThumbnail: Thum
             }
         }
@@ -1228,7 +1228,7 @@ function Fakes() {
                         jpegThumbnail: Thum
                     },
                     title: Sarapan,
-                    description: `𝗧 𝗜 𝗠 𝗘 : ${moment.tz("Asia/Makassar").format("HH:mm:ss")}`,
+                    description: `𝗧 𝗜 𝗠 𝗘 : ${moment.tz("Africa/Casablanca").format("HH:mm:ss")}`,
                     currencyCode: "USD",
                     priceAmount1000: SizeDoc(),
                     retailerId: "Ghost",
@@ -1261,7 +1261,7 @@ function Fakes() {
                 h: Sarapan,
                 seconds: SizeDoc(),
                 gifPlayback: true,
-                caption: `𝗧 𝗜 𝗠 𝗘 : ${moment.tz("Asia/Makassar").format("HH:mm:ss")}`,
+                caption: `𝗧 𝗜 𝗠 𝗘 : ${moment.tz("Africa/Casablanca").format("HH:mm:ss")}`,
                 jpegThumbnail: Thum
             }
         }
